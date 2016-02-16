@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.div_big{
+	margin:0 auto 0 auto;
+	//border: thin solid red;
+	width:1230px;
+}
+
+.allDivs {
+	margin: 20px;
+	float: left;
+	height: 200px;
+	width: 200px;
+	//border: thin solid #000;
+}
+.smallDivs {
+	//margin: 0 20px ;
+	height: 160px;
+	width: 160px;
+	//border: thin dotted #000;
+	
+}
+.smallDivs img {
+	height:160px;
+	width:160px;	
+}
+/*
+img:hover {
+	height:200px;
+	width:200px;
+	margin:0px;
+}
+div.smallDivs:hover {
+	height:200px;
+	width:200px;
+	margin:0px;
+	}
+*/
+#topicDiv {
+	height: 80px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	//border: thin solid #000;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 100%;
+	font-weight: bold;
+	color: #939;
+	padding: auto;
+}
+#topicSmallDiv {
+	height: 60px;
+	width: 80%;
+	margin-top: 10px;
+	margin-left:auto;
+	margin-right:auto;
+	//border: thin solid #000;
+	text-align:center;
+	vertical-align: middle;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 50px;
+	font-weight: bold;
+}
+div#topicSmallDiv:hover {
+	height:80px;
+	width:100%;
+	margin:0px;
+	font-size: 70px;
+	}
+	
